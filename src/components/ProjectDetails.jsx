@@ -39,7 +39,12 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
-            <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation">
+            <a
+              href={href} // <-- pasang href di sini
+              target="_blank" // buka di tab baru
+              rel="noopener noreferrer" // keamanan
+              className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
+            >
               View Project{" "}
               <img src="assets/arrow-up.svg" className="size-4" href={href} />
             </a>

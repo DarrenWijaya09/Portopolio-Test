@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     extend: {
+      scrollBehavior: ['smooth'],
       colors: {
         storm: {
           light: "#A5B4FC", // ungu muda

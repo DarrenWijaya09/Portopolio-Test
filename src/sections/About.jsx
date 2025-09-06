@@ -13,20 +13,21 @@ const About = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1 relative">
-          <img
-            src="assets/coding-pov.png"
-            className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
-          />
-          <div className="z-10">
-            <p className="headtext text-white">Hi, I'm Darren Wijaya</p>
-            <p className="subtext text-white">
-              I enjoy combining logic and creativity—building websites,
-              experimenting with code, and occasionally creating visual works
-              that make people stop scrolling for a moment.
-            </p>
-          </div>
-          <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
-        </div>
+  <img
+    src="assets/sendiri.jpg"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+  <div className="z-10 relative p-4">
+    <p className="headtext text-white">Hi, I'm Darren Wijaya</p>
+    <p className="subtext text-white">
+      I enjoy combining logic and creativity—building websites,
+      experimenting with code, and occasionally creating visual works
+      that make people stop scrolling for a moment.
+    </p>
+  </div>
+  <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
+</div>
+
 
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
