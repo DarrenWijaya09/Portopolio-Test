@@ -20,8 +20,8 @@ export default function PageTransition({ isDark, onAnimationEnd }) {
                  transition-transform duration-1000 ease-in-out 
                  scale-0"
                  style={{
-                    WebkitMaskImage: "url('assets/shigure-ui.webp')",
-                    maskImage: "url('assets/shigure-ui.webp')",
+                    WebkitMaskImage: "url('/assets/shigure-ui.webp')",
+                    maskImage: "url('/assets/shigure-ui.webp')",
                     WebkitMaskRepeat: "no-repeat",
                     maskRepeat: "no-repeat",
                     WebkitMaskPosition: "center",
